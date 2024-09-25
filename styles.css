@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.company-name {
+    font-size: 1.8em;
+    color: #008fd1;
+    margin: 10px 0;
+}
+
+.birthday-message {
+    font-size: 1.5em;
+    color: #0074b7;
+    margin: 10px 0;
+}
+
+.name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.role {
+    font-size: 1em;
+    color: #333;
+}
+
+.best-wishes {
+    margin-top: 20px;
+}
+
+.best-wishes .company-name-small {
+    color: #008fd1;
+    font-weight: bold;
+}
+
+.message {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 10px;
+}
